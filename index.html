@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="スマホで作る、おしゃれなWeb結婚式招待状。結婚式準備を、もっと私たちらしく。">
+  <title>Web結婚式招待状 | スマホで作る、私たちらしい招待状</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <button class="header__menu" type="button" aria-label="メニューを開く" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="#" class="header__logo">Wedding</a>
+      <nav class="header__nav" id="headerNav" aria-label="メインナビゲーション">
+        <a href="#designs">デザイン一覧</a>
+        <a href="#benefit">特徴</a>
+        <a href="#comparison">料金</a>
+        <a href="#faq">よくある質問</a>
+      </nav>
+      <div class="header__actions">
+        <a href="#" class="btn btn--ghost-header">ログイン</a>
+        <a href="#cta" class="btn btn--header-cta">無料で招待状を作る ›</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="hero__tagline">結婚式全体の世界観を崩さない招待状</p>
+        <h1 class="hero__title">
+          結婚式準備を、<br>もっと私たちらしく。
+        </h1>
+        <p class="hero__title-sub">スマホで作る、おしゃれなWeb招待状</p>
+        <p class="hero__text">
+          大切なゲストへ、あなたたちらしい想いを届けませんか。<br>
+          写真が主役のデザインで、特別な一日を、もっと心地よく。
+        </p>
+        <div class="hero__badges">
+          <span class="badge">10,000組突破</span>
+          <span class="badge badge--gold">満足度 98%</span>
+        </div>
+        <div class="hero__cta">
+          <a href="#designs" class="btn btn--primary">無料でデザインを見る</a>
+          <a href="#steps" class="btn btn--outline">5分で作成を始める</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__photo">
+          <img class="img-natural" src="https://images.unsplash.com/photo-1591604460910-d2824ff080b6?w=700&q=80&fit=crop" alt="草原を歩く新郎新婦" loading="eager">
+        </div>
+        <div class="phone-mockup">
+          <div class="phone-mockup__frame">
+            <div class="phone-mockup__screen">
+              <img class="img-natural" src="https://images.unsplash.com/photo-1469371670808-4cdc9857fafa?w=400&q=80&fit=crop" alt="招待状プレビュー" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#benefit" class="scroll-hint" aria-label="下にスクロール">
+      <span class="scroll-hint__text">Scroll</span>
+      <span class="scroll-hint__line"></span>
+    </a>
+  </section>
+
+  <!-- Design Showcase -->
+  <section class="section designs" id="designs">
+    <div class="container">
+      <p class="section__label">Design</p>
+      <h2 class="section__title section__title--center">デザイン一覧</h2>
+      <p class="section__lead section__lead--center">
+        明るい自然光と、やわらかな空気感。<br>
+        韓国ウエディングのような、写真が主役のテンプレートです。
+      </p>
+      <div class="design-grid">
+        <article class="design-card">
+          <h3 class="design-card__name">soft field</h3>
+          <div class="design-card__preview design-card__preview--arch">
+            <img class="img-natural" src="https://images.unsplash.com/photo-1591604460910-d2824ff080b6?w=400&q=80&fit=crop" alt="soft field デザイン">
+          </div>
+          <a href="#cta" class="btn btn--design">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            このデザインで作る
+          </a>
+        </article>
+        <article class="design-card">
+          <h3 class="design-card__name">airy natural</h3>
+          <div class="design-card__preview design-card__preview--arch">
+            <img class="img-natural" src="https://images.unsplash.com/photo-1469371670808-4cdc9857fafa?w=400&q=80&fit=crop" alt="airy natural デザイン">
+          </div>
+          <a href="#cta" class="btn btn--design">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            このデザインで作る
+          </a>
+        </article>
+        <article class="design-card">
+          <h3 class="design-card__name">milk white</h3>
+          <div class="design-card__preview design-card__preview--arch">
+            <img class="img-natural" src="https://images.unsplash.com/photo-1522673607640-1d983924086f?w=400&q=80&fit=crop" alt="milk white デザイン">
+          </div>
+          <a href="#cta" class="btn btn--design">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            このデザインで作る
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Benefit -->
+  <section class="section benefit" id="benefit">
+    <div class="container">
+      <p class="section__label">Benefit</p>
+      <h2 class="section__title">
+        忙しい花嫁でも、<br>おしゃれと効率は妥協しない。
+      </h2>
+      <p class="section__lead">
+        招待状代を抑えて、ドレスや旅行に回したいあなたへ。<br>
+        スマホひとつで、準備からゲスト管理まで完結します。
+      </p>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18.01"/></svg>
+          </div>
+          <h3 class="card__title">スマホ完結</h3>
+          <p class="card__text">デザイン選びから写真の入稿、URLの共有まで。PCは不要で、いつでもどこでも編集できます。</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <h3 class="card__title">返信管理ラク</h3>
+          <p class="card__text">出欠の返信を自動で集計。ゲストリストの管理もひと目でわかり、当日まで安心です。</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M16 8s-1.5-2-4-2-4 2-4 2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/><path d="M8 13s1.5 2 4 2 4-2 4-2"/></svg>
+          </div>
+          <h3 class="card__title">費用カット</h3>
+          <p class="card__text">紙の招待状と比べて大幅にコストダウン。浮いた予算を、もっと大切なことに使えます。</p>
+        </article>
+      </div>
+      <div class="section__cta">
+        <a href="#designs" class="btn btn--primary">デザインを見てみる</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Comparison -->
+  <section class="section comparison" id="comparison">
+    <div class="container">
+      <p class="section__label">Comparison</p>
+      <h2 class="section__title">紙との圧倒的な差</h2>
+      <p class="section__lead">同じ想いを届けながら、コストは1/10以下に。</p>
+      <div class="comparison__chart">
+        <div class="comparison__bar comparison__bar--paper">
+          <div class="comparison__bar-label">
+            <span class="comparison__type">紙の招待状</span>
+            <span class="comparison__price">¥35,000</span>
+          </div>
+          <div class="comparison__bar-fill" style="--fill: 100%"></div>
+        </div>
+        <div class="comparison__bar comparison__bar--web">
+          <div class="comparison__bar-label">
+            <span class="comparison__type">Web招待状</span>
+            <span class="comparison__price comparison__price--highlight">¥3,980</span>
+          </div>
+          <div class="comparison__bar-fill" style="--fill: 11.4%"></div>
+        </div>
+      </div>
+      <div class="comparison__savings">
+        <p class="comparison__savings-text">約 <strong>31,020円</strong> の節約</p>
+        <p class="comparison__savings-sub">その分を、ドレスやハネムーンに。</p>
+      </div>
+      <table class="comparison__table" aria-label="紙とWeb招待状の比較">
+        <thead>
+          <tr>
+            <th></th>
+            <th>紙</th>
+            <th>Web</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>費用</td>
+            <td>¥35,000〜</td>
+            <td class="highlight">¥3,980</td>
+          </tr>
+          <tr>
+            <td>作成時間</td>
+            <td>2〜3週間</td>
+            <td class="highlight">最短5分</td>
+          </tr>
+          <tr>
+            <td>返信管理</td>
+            <td>手作業</td>
+            <td class="highlight">自動集計</td>
+          </tr>
+          <tr>
+            <td>修正</td>
+            <td>再印刷が必要</td>
+            <td class="highlight">いつでも無料</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 4. Feature -->
+  <section class="section feature" id="feature">
+    <div class="container">
+      <p class="section__label">Feature</p>
+      <h2 class="section__title">選ばれている理由があります。</h2>
+      <div class="feature__badges">
+        <div class="feature__badge">
+          <span class="feature__badge-num">10,000</span>
+          <span class="feature__badge-unit">組突破</span>
+        </div>
+        <div class="feature__badge feature__badge--gold">
+          <span class="feature__badge-num">98</span>
+          <span class="feature__badge-unit">% 満足度</span>
+        </div>
+      </div>
+      <ul class="feature__list">
+        <li class="feature__item">
+          <span class="feature__num">01</span>
+          <div>
+            <h3>韓国風・ナチュラルなデザイン</h3>
+            <p>上品なベージュとゴールドを基調に、写真が主役の美しいテンプレート。</p>
+          </div>
+        </li>
+        <li class="feature__item">
+          <span class="feature__num">02</span>
+          <div>
+            <h3>年配ゲストにもやさしい</h3>
+            <p>URLをタップするだけ。操作に不慣れな方にもわかりやすい画面設計。</p>
+          </div>
+        </li>
+        <li class="feature__item">
+          <span class="feature__num">03</span>
+          <div>
+            <h3>結婚式の世界観をそのままに</h3>
+            <p>式場の雰囲気に合わせたカスタマイズで、統一感のあるおもてなしを。</p>
+          </div>
+        </li>
+      </ul>
+      <div class="section__cta">
+        <a href="#designs" class="btn btn--primary">人気デザインを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Reviews & FAQ -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <p class="section__label">Reviews</p>
+      <h2 class="section__title">先輩カップルの声</h2>
+      <div class="review-grid">
+        <blockquote class="review">
+          <p class="review__text">「ゲストに"可愛い！"と言われて、準備の苦労が報われた気持ちになりました。」</p>
+          <footer class="review__author">— 2025年春 ご成婚 Aさん</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p class="review__text">「返信管理が本当に楽。紙だと大変だった出欠確認が、スマホで一瞬で終わりました。」</p>
+          <footer class="review__author">— 2024年秋 ご成婚 Mさん</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p class="review__text">「浮いたお金でドレスをグレードアップ。招待状に悩む時間も減って、準備が楽しくなりました。」</p>
+          <footer class="review__author">— 2025年夏 ご成婚 Kさん</footer>
+        </blockquote>
+      </div>
+
+      <div class="faq" id="faq">
+        <p class="section__label">FAQ</p>
+        <h2 class="section__title">よくあるご質問</h2>
+        <details class="faq__item">
+          <summary>年配のゲストでも使えますか？</summary>
+          <p>はい。URLをタップするだけで招待状が開き、出欠の返信もボタンひとつで完了します。操作ガイドもご用意しています。</p>
+        </details>
+        <details class="faq__item">
+          <summary>マナー的に問題ありませんか？</summary>
+          <p>Web招待状は現在、多くのカップルに選ばれている形式です。お祝いの気持ちを大切に、丁寧な文面テンプレートもご用意しています。</p>
+        </details>
+        <details class="faq__item">
+          <summary>写真は後から変更できますか？</summary>
+          <p>はい、いつでも無料で変更可能です。プロフィール写真やギャラリー写真も、好きなタイミングで差し替えられます。</p>
+        </details>
+      </div>
+      <div class="section__cta">
+        <a href="#designs" class="btn btn--primary">人気デザインを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. 3 STEP -->
+  <section class="section steps" id="steps">
+    <div class="container">
+      <p class="section__label">How to</p>
+      <h2 class="section__title">作り方は、たった3ステップ。</h2>
+      <p class="section__lead">難しい操作は一切なし。今日から、あなただけの招待状が作れます。</p>
+      <ol class="step-list">
+        <li class="step">
+          <span class="step__num">1</span>
+          <div class="step__content">
+            <h3 class="step__title">デザインを選ぶ</h3>
+            <p class="step__text">お好みのテンプレートを選ぶだけ。カラーとフォントも自由にカスタマイズ。</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__num">2</span>
+          <div class="step__content">
+            <h3 class="step__title">写真をアップ</h3>
+            <p class="step__text">スマホの写真をそのままアップロード。プロフィールやギャラリーも簡単に。</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__num">3</span>
+          <div class="step__content">
+            <h3 class="step__title">URLを送る</h3>
+            <p class="step__text">完成した招待状のURLをLINEやメールで共有。ゲストの返信も自動で集まります。</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 7. Final CTA -->
+  <section class="section cta" id="cta">
+    <div class="container">
+      <h2 class="cta__title">今すぐ無料で作成する</h2>
+      <p class="cta__text">クレジットカード不要。まずはデザインを見てみるだけでもOKです。</p>
+      <a href="#" class="btn btn--cta">今すぐ無料で作成する</a>
+    </div>
+  </section>
+
+  <!-- 8. Future Vision -->
+  <section class="section vision" id="vision">
+    <div class="container">
+      <div class="vision__photos">
+        <div class="vision__photo vision__photo--main">
+          <img class="img-natural" src="https://images.unsplash.com/photo-1520854221256-17451cc7916a?w=800&q=80&fit=crop" alt="自然光の中の新郎新婦" loading="lazy">
+        </div>
+        <div class="vision__photo vision__photo--sub">
+          <img class="img-natural" src="https://images.unsplash.com/photo-1465495976277-89e920af4b0e?w=600&q=80&fit=crop" alt="やわらかな光の中の花嫁" loading="lazy">
+        </div>
+      </div>
+      <div class="vision__content">
+        <p class="section__label">Vision</p>
+        <h2 class="section__title">結婚式準備を、<br>もっと心地よい時間に。</h2>
+        <p class="section__lead">
+          招待状づくりに追われるのではなく、<br>
+          ふたりらしい準備の時間を大切に。<br>
+          ゲストへの想いを、美しく届けましょう。
+        </p>
+        <a href="#cta" class="btn btn--outline">あなただけの招待状を作る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__logo">Wedding</p>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <a href="#designs">デザイン一覧</a>
+        <a href="#benefit">特徴</a>
+        <a href="#comparison">料金比較</a>
+        <a href="#faq">よくある質問</a>
+        <a href="#">利用規約</a>
+        <a href="#">プライバシーポリシー</a>
+      </nav>
+      <p class="footer__copy">&copy; 2026 Web Wedding Invitation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const headerNav = document.getElementById('headerNav');
+    menuToggle.addEventListener('click', () => {
+      headerNav.classList.toggle('is-open');
+      menuToggle.classList.toggle('is-active');
+    });
+    headerNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        headerNav.classList.remove('is-open');
+        menuToggle.classList.remove('is-active');
+      });
+    });
+  </script>
+
+</body>
+</html>
